@@ -1,0 +1,2 @@
+SERIAL_PORT = '/dev/ttyUSB0'
+BAUDRATE = 19200
