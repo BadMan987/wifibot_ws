@@ -56,7 +56,7 @@ ros2 run wifibot_control wifibot_node
 Bash
 source /opt/ros/humble/setup.bash
 source ~/wifibot_ws/install/setup.bash
-export ROS_DOMAIN_ID=30
+export ROS_DOMAIN_ID=0
 ros2 launch zed_wrapper zed_camera.launch.py camera_model:=zed2i publish_tf:=true publish_map_tf:=true
 
 步骤 3：开启 RTAB-Map 建图与可视化大屏 (终端 3)
