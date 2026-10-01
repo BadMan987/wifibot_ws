@@ -141,9 +141,11 @@ source ~/.bashrc
 
 5. Vérification de l'installation
 
-    Terminal A : ros2 run demo_nodes_cpp talker
+    Terminal A :
+   ros2 run demo_nodes_cpp talker
 
-    Terminal B : ros2 run demo_nodes_py listener
+    Terminal B :
+   ros2 run demo_nodes_py listener
 
 
 🌐 Gazebo Classic 11 与 ROS 2 桥接安装与验证 / Installation et Vérification de Gazebo Classic 11 et du Pont ROS 2
@@ -730,6 +732,7 @@ Bash
 
 source /opt/ros/humble/setup.bash
 source ~/wifibot_ws/install/setup.bash
+
 ros2 launch wifibot_gazebo simulation.launch.py
 
 步骤 3：启动 RTAB-Map 视觉定位节点（终端 B）
